@@ -1,6 +1,6 @@
 {
-  "homepage": "https://howuvebeen.github.io/",
-  "name": "my-app",
+  "homepage": "https://howuvebeen.github.io",
+  "name": "howuvebeen.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,8 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }
