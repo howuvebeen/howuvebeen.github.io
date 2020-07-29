@@ -1,0 +1,206 @@
+/* nav */
+  nav {
+    float: right;
+  }
+
+  .nav{
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    width: 105px;
+    height: 49px;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    text-decoration: none;
+    padding: 35px;
+  }
+
+  .logo{
+    width: 293px;
+    height: 47px;
+    font-family: "Cedarville Cursive";
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #22ca79;
+    float: left;
+    text-align: center;
+    vertical-align: text-top;
+  }
+  
+/* main */
+  main {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .intro {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .intro-one {
+    width: 248.4px;
+    height: 51px;
+    font-family: "Lato";
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 0px;
+  }
+
+  .intro-two {
+    width: 521px;
+    height: 67px;
+    font-family: "Lato";
+    font-size: 60px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  .intro-three {
+    width: 520px;
+    height: 40px;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #6c6c6c;
+    margin-bottom: 0px;
+  }
+
+  .work-image{
+    width: 660px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .work{
+    margin-bottom: 130px;
+    display: flex;
+  }
+
+  .work-info{
+    margin-top: 15px;
+    padding-left: 24px;
+  }
+
+  .work-info .title {
+    width: 255px;
+    height: 35px;
+    font-family: "Lato";
+    font-size: 33px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .work-info .period{
+    width: 236px;
+    height: 16px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6c6c6c;
+    margin-bottom: 30px;
+  }
+
+  .work-info .description{
+    width: 320px;
+    height: 61px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .work-info .tags{
+    width: 184px;
+    height: 31px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.21;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .other{
+    width: 100%;
+    height: 70px;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: center;
+  }
+
+/* footer */
+
+  .copyright{
+    width: 100%;
+    height: 47px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #000000;
+    text-align: center;
+  }
