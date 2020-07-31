@@ -1,326 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"); 
+
 /* nav */
-  nav {
-    float: right;
-  }
+nav {
+  float: right;
+}
 
-  .nav{
-    margin-top: 40px;
-    margin-right: 70px;
-    margin-left: 70px;
-  }
+.nav{
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    margin-top: 20px;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 20px;
+}
 
-  nav ul li a {
-    width: 105px;
-    height: 49px;
-    font-family: "Lato";
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
-    text-decoration: none;
-    padding: 35px;
-  }
+nav ul li {
+  display: inline-block;
+}
 
-  .logo{
-    width: 293px;
-    height: 47px;
-    font-family: "Cedarville Cursive";
-    font-size: 30px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #22ca79;
-    float: left;
-    text-align: left;
-    margin-left: 32px;
-    vertical-align: text-top;
-  }
+nav ul li a {
+  width: 105px;
+  height: 49px;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 35px 0 35px;
+}
 
-  .how-uvebeen{
-    width: 147px;
-    height: 24px;
-    object-fit: cover;
-  }
-  
+.logo{
+  width: 200px;
+  height: 47px;
+  font-family: "Cedarville Cursive";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #22ca79;
+  float: left;
+  text-align: left;
+  margin-left: 32px;
+  vertical-align: text-top;
+}
+
+.how-uvebeen{
+  width: 147px;
+  height: 24px;
+  object-fit: cover;
+}
+
 /* main */
-  main {
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1000px;
-  }
+main {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
 
-  .intro {
-    padding-top: 130px;
-    padding-bottom: 130px;
-    display: flex;
-    flex-direction: column;
-  }
+.intro {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .intro-one {
-    font-family: "Lato";
-    font-size: 22px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.22;
-    letter-spacing: normal;
-    color: #000000;
-    margin-bottom: 0px;
-  }
+.intro-one {
+  font-family: "Lato";
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.22;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 0px;
+}
 
-  .intro-two {
-    font-family: "Lato";
-    font-size: 60px;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
-    margin-bottom: 30px;
-  }
+.intro-two {
+  font-family: "Lato";
+  font-size: 60px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 30px;
+}
 
-  .intro-three {
-    font-family: "Lato";
-    font-size: 25px;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #6c6c6c;
-    margin-bottom: 0px;
-  }
+.intro-three {
+  font-family: "Lato";
+  font-size: 25px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #6c6c6c;
+  margin-bottom: 0px;
+}
 
-  .work-image{
-    width: 660px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+.work{
+  margin-bottom: 130px;
+  display: flex;
+}
 
-  .work{
-    margin-bottom: 130px;
-    display: flex;
-  }
+.work-img{
+  width: 660px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
-  .work-info{
-    margin-top: 15px;
-    padding-left: 24px;
-    display: flex;
-    flex-direction: column;
-  }
+.work-info{
+  margin-top: 15px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
 
-  .work-info .title {
-    font-family: "Lato";
-    font-size: 30px;
-    font-weight: 700;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
-    margin-bottom: 15px;
-  }
+.work-info .title {
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 15px;
+}
 
-  .work-info .period{
-    font-family: "Lato";
-    font-size: 17typx;
-    font-weight: 300;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #6c6c6c;
-    margin-bottom: 30px;
-  }
+.work-info .period{
+  font-family: "Lato";
+  font-size: 17typx;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6c6c6c;
+  margin-bottom: 30px;
+}
 
-  .work-info .description{
-    font-family: "Lato";
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.48;
-    letter-spacing: normal;
-    color: #000000;
-    margin-bottom: 20px;
-  }
+.work-info .description{
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 20px;
+}
 
-  .work-info .tags{
-    font-family: "Lato";
-    font-size: 14px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.21;
-    letter-spacing: normal;
-    color: #ffffff;
-  }
+.work-info .tags{
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.21;
+  letter-spacing: normal;
+  color: #ffffff;
+}
 
-  .project{
-    padding-top: 80px;
-  }
+.project{
+  padding-top: 80px;
+}
 
-  .project-title{
-    width: 100%;
-    height: 70px;
-    font-family: "Lato";
-    font-size: 30px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.11;
-    letter-spacing: normal;
-    color: #000000;
-    text-align: center;
-  }
+.project-title{
+  width: 100%;
+  height: 70px;
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  color: #000000;
+  text-align: center;
+}
 
-  .projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    position: relative;
-    gap: 40px;
-    padding-top: 30px;
-  }
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  position: relative;
+  gap: 40px;
+  padding-top: 30px;
+}
 
-  .project-info{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: #22ca79;
-  }
+.project-info{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #22ca79;
+}
 
-  .project-info p{
-    font-family: "Lato";
-    font-size: 14px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.21;
-    letter-spacing: normal;
-    color: #000000;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-  }
+.project-info p{
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.21;
+  letter-spacing: normal;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
 
 
-  .shortcut-logos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    position: fixed;
-    right: 85px;
-    bottom: 300px;
-  }
+.shortcut-logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  position: fixed;
+  right: 85px;
+  bottom: 300px;
+}
 
-  .github{
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-    margin: 7px;
-  }
+.github{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin: 7px;
+}
 
-  .linkedin{
-    width: 32px;
-    height: 20px;
-    object-fit: cover;
-    margin: 10px;
-  }
+.linkedin{
+  width: 32px;
+  height: 20px;
+  object-fit: cover;
+  margin: 10px;
+}
 
-  .email{
-    width: 33px;
-    height: 23px;
-    object-fit: cover;    
-    margin: 10px;
-  }
-    
-  .line{
-    border-right: 1px solid black;
-    height: 290px;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    right: 100px;
-    bottom: 0px;
-  }
+.email{
+  width: 33px;
+  height: 23px;
+  object-fit: cover;    
+  margin: 10px;
+}
+  
+.line{
+  border-right: 1px solid black;
+  height: 290px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 100px;
+  bottom: 0px;
+}
 
 /* footer */
 
-  .copyright{
-    width: 100%;
-    height: 47px;
-    font-family: "Lato";
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 200px;
-  }
+.copyright{
+  width: 100%;
+  height: 47px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+  text-align: center;
+}
+
+footer{
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
 
 /* about  */
 
-  .portraits {
-    margin-top: 157px;
-    margin-bottom: 35px;
-    display: flex;
-    justify-content: center;
+.portraits {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  position: relative;
+  gap: 40px;
+  padding-top: 30px;
+  margin-top: 120px;
+}
+
+.portrait{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.summary{
+  width: 100%;
+  font-family: "Lato";
+  font-size: 19px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.90;
+  letter-spacing: normal;
+  color: #6c6c6c;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary p{
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.color-text{
+    color: #22ca79;
+}
+
+/* responsive */
+
+@media screen and (min-width: 300px) {
+  main{
+    padding: 0px 25px;
   }
 
-  .portrait{
-    width: 494px;
-    height: 358px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 10px;
-  }
-
-  .summary{
+  .work{
     width: 100%;
-    height: 712px;
-    font-family: "Lato";
-    font-size: 19px;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.90;
-    letter-spacing: normal;
-    color: #6c6c6c;
-    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav ul {
+    /* hamburger */
+  }  
+}
+
+@media screen and (max-width: 920px) {
+  .work{
+    flex-direction: column;
+    margin-bottom: 5rem;
   }
 
-  .summary p{
-    padding-bottom: 30px;
+  .work-img{
+    display: flex;
+    width: 100%;
+    height: auto;
   }
 
-  .color-text{
-      color: #22ca79;
+  .work-info{
+    align-items: left;
+    justify-content: left;
+    padding-left: 5px;
   }
+}
+
+@media screen and (max-width: 1300px) {
+  .line{
+    display: none;
+  }
+  
+  .shortcut-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .github{
+    width: 38.44px;
+    height: 38.44px;
+    object-fit: cover;
+    margin: 30px;
+  }
+
+  .linkedin{
+    width: 38.44px;
+    height: 20.5px;
+    object-fit: cover;
+    margin: 30px;
+  }
+
+  .email{
+    width: 41px;
+    height: 26.91px;
+    object-fit: cover;    
+    margin: 30px;
+  }
+}
+
