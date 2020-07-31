@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>how_uvebeen</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/theme.css" media="all"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="styles/theme.css" media="all"/>
 
 <body>
 
   <header>
-    <div class="nav">
+    <div class="nav" data-aos="fade-down">
       <a href="index.html" class="logo">how_uvebeen</a>
         <nav>
             <ul>
@@ -22,8 +23,8 @@
         </nav>
     </div>
   </header>
-  <main>
-    <div class="portraits">
+  <main class="main-about">
+    <div class="portraits" data-aos="fade-in">
         <img src="images/portrait-one.jpg" class="portrait one">
         <img src="images/example.png" class="portrait two">
     </div>
@@ -53,16 +54,23 @@
   </main>
 
   <footer>
-    <div class="shortcut">
-      <div class="shortcut-logos">
-          <a href="https://github.com/howuvebeen"><img src='images/github.png' class="github"></img></a>
-          <a href="https://www.linkedin.com/in/yubin-heo-342954192/"><img src='images/linkedin.png' class="linkedin"></img></a>
-          <a href="mailto:yh356@cornell.edu"><img src='images/email.png' class="email"></img></a>
-      </div>
-      <div class="line"></div>
+    <div class="shortcut-logos-about">
+        <a href="https://github.com/howuvebeen"><img src='images/github.png' class="github"></img></a>
+        <a href="https://www.linkedin.com/in/yubin-heo-342954192/"><img src='images/linkedin.png' class="linkedin"></img></a>
+        <a href="mailto:yh356@cornell.edu"><img src='images/email.png' class="email"></img></a>
     </div>
     <p class="copyright">© copyright Yubin Heo</p>
   </footer>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+        {
+            duration: 2000, 
+            easing: 'ease',
+            once: true
+        }
+    );
+  </script>
 </body>
 </html>

@@ -7,13 +7,12 @@
   <title>how_uvebeen</title>
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="styles/theme.css" media="all"/>
-  <link rel="stylesheet" type="text/css" href="styles/effect.css" media="all"/>
 
 <body>
-
   <header>
-    <div class="nav">
+    <div class="nav" data-aos="fade-down">
         <a href="index.html" class="logo">how_uvebeen</a>
         <nav>
             <ul>
@@ -32,18 +31,7 @@
         <p class="intro-three">who loves solving problems with creative ideas.</p>
     </div>
     <div>
-        <div class="work">
-            <div class="work-image">
-                <img src='images/example.png' class="work-img"></img>
-            </div>
-            <div class="work-info">
-                <p class="title">Three Notes</p>
-                <p class="period">June 2020 - Present</p>
-                <p class="description">DESCRIPTION</p>
-                <p class="tags">TAG TAG TAG</p>
-            </div>
-        </div>
-        <div class="work">
+        <div class="work" data-aos="fade-in">
             <div class="work-image">
                 <img src='images/nc-logo.png' class="work-img"></img>
             </div>
@@ -54,9 +42,9 @@
                 <p class="tags">TAGS</p>
             </div>
         </div>
-        <div class="work">
+        <div class="work" data-aos="fade-in">
             <div class="work-image">
-                <img src='images/example.png' class="work-img"></img>
+                <img src='images/cosmate.png' class="work-img"></img>
             </div>
             <div class="work-info">
                 <p class="title">Cosmate</p>
@@ -65,7 +53,18 @@
                 <p class="tags">TAGS</p>
             </div>
         </div>
-        <div class="work">
+        <div class="work" data-aos="fade-in">
+            <div class="work-image">
+                <img src='images/example.png' class="work-img"></img>
+            </div>
+            <div class="work-info">
+                <p class="title">Three Notes</p>
+                <p class="period">June 2020 - Present</p>
+                <p class="description">DESCRIPTION</p>
+                <p class="tags">TAG TAG TAG</p>
+            </div>
+        </div>
+        <div class="work" data-aos="fade-in">
             <div class="work-image">
                 <img src='images/example.png' class="work-img"></img>
             </div>
@@ -79,7 +78,7 @@
     </div>
     <div class="project">
         <p class="project-title">Other Projects</p>
-        <div class="projects">
+        <div class="projects" data-aos="fade-in">
             <div class="project-info">
                 <p>Cornell Daily Sun</p>
                 <p>
@@ -112,5 +111,15 @@
       <p class="copyright">© copyright Yubin Heo</p>
   </footer>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+        {
+            duration: 2000, 
+            easing: 'ease',
+            once: true
+        }
+    );
+  </script>
 </body>
 </html>
