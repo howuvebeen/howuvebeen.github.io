@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174215300-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-174215300-1');
+  </script>
   <!-- <link rel="icon" href="images/how_uvebeen.png"> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,14 +18,15 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="styles/theme.css" media="all"/>
 
+
 <body>
   <header>
     <div class="nav" data-aos="fade-down">
         <a href="index.html" class="logo">how_uvebeen</a>
         <nav>
             <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="files/resume.pdf">Resume</a></li>
+                <li><a href="about.html" class="about">About</a></li>
+                <li><a href="files/resume.pdf" class="resume">Resume</a></li>
             </ul>
         </nav>
     </div>
@@ -39,7 +48,13 @@
                 <p class="title">NCSOFT</p>
                 <p class="period">June 2020 - August 2020</p>
                 <p class="description">Assisted the pre-training of language models, built based on Kaldi, for the speech recognition service on videotelephony software and mobile games.</p>
-                <p class="tags">TAGS</p>
+                <div class="tags">
+                    <p>internship</p>
+                    <p>speech recognition</p>
+                    <p>natural language processing</p>
+                    <p>kaldi</p>
+                    <p>n-gram</p>
+                </div>
             </div>
         </div>
         <div class="work" data-aos="fade-in">
@@ -122,7 +137,7 @@
   <script>
     AOS.init(
         {
-            duration: 2000, 
+            duration: 1500,
             easing: 'ease',
             once: true
         }

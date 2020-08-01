@@ -12,6 +12,10 @@ nav {
   margin-left: 40px;
 }
 
+ul{
+  list-style: none;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -20,6 +24,23 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
+}
+
+.about:hover, .resume:hover{
+  color: #22ca79;
+}
+
+.about, .resume{
+  -webkit-transition: color .20s linear;
+  -moz-transition: color .20s linear;
+  -ms-transition: color .20s linear;
+  -o-transition: color .20s linear;
+  transition: color .20s linear;
 }
 
 nav ul li a {
@@ -52,6 +73,10 @@ nav ul li a {
   text-align: left;
   margin-left: 32px;
   vertical-align: text-top;
+}
+
+a.logo:hover {
+  color:#22ca79;
 }
 
 .how-uvebeen{
@@ -224,7 +249,7 @@ main {
 
 .project-info p{
   font-family: "Lato";
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -241,7 +266,7 @@ main {
 
 .project-info .title{
   font-family: "Lato";
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
@@ -249,6 +274,7 @@ main {
   letter-spacing: normal;
   color: #000000;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .shortcut-logos{
@@ -405,6 +431,29 @@ footer{
   height: 26.91px;
   object-fit: cover;    
   margin: 30px;
+}
+
+a.underline{
+    position: relative;
+    color: #22ca79;
+  }
+
+a.underline:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  bottom: -5px;
+  background-color: #22ca79;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.underline:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
 /* responsive */
