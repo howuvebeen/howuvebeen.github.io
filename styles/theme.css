@@ -65,6 +65,7 @@ a.logo:hover, a.logo:visited, a.logo:link, a.logo:active {
   transition: color .20s linear;
   margin: 5px;
   text-align: right;
+  word-spacing: 5px;
 }
 
 nav .menu {
