@@ -707,6 +707,78 @@ work
   box-shadow: 0 -2px 16px 0 rgba(0, 0, 0, 0.09);
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 93.6%;
+  opacity: 0;
+  transition: .5s ease;
+  padding: 40px;
+}
+
+#work .col-6:hover .overlay {
+  opacity: 0.95;
+}
+
+.overlay-detail{
+  padding: 10px;
+}
+
+.overlay-title {
+  font-weight: 600;
+  font-size: 30px;
+}
+  
+.overlay-role{
+  margin-top: 5px;
+}
+
+.overlay-time {
+  font-size: 12px;
+  color: #9c9c9c;
+  padding-bottom: 5px;
+}
+
+.overlay-text p{
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.depco .overlay{
+  background-color: #F4E4EB;
+}
+
+.cornellsun .overlay{
+  background-color: #f3f3f3;
+  width: 95%;
+}
+
+.nc .overlay{
+  background-color: #252525;
+  color: white;
+}
+
+.nc .overlay-text p,.fitm8 .overlay-text p,.instagram .overlay-text p{
+  color: white;
+}
+
+.fitm8 .overlay{
+  background-color: #FC9742;
+  width: 93.4%;
+  color: white;
+}
+
+.instagram .overlay {
+  background-color: #df7779;
+  color: white;
+}
+
+.fitm8 .overlay-time, .instagram .overlay-time{
+  color:#e7e7e7;
+}
 
 /*
 ---------------------------------------------
