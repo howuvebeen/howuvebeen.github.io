@@ -195,7 +195,7 @@ header
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #252525 !important;
+  color: #22ca79 !important;
 }
 
 .background-header .nav li a.active, .header-area .main-nav .nav li a.active {
@@ -745,8 +745,12 @@ responsive
     font-size: 20px !important;
   }
   
-  .overlay {
-    padding:10px !important;
+  .overlay{
+    width: 100% !important;
+    position: relative;
+    opacity: 1;
+    background-image: none;
+    padding: 0px !important;
   }
 
 }
