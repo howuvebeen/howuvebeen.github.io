@@ -432,7 +432,7 @@ work
 #work img{
   height: 400px;
   object-fit: cover;
-  box-shadow: 0 -2px 16px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 -2px 18px 0 rgba(0, 0, 0, 0.15);
 }
 
 .overlay {
@@ -445,11 +445,11 @@ work
   opacity: 0;
   transition: .5s ease;
   padding: 40px;
-  background-image: linear-gradient(145deg, #ffffff 0%, #e2e2e2 100%);
+  background-color: white;
 }
 
 #work .col-6:hover .overlay {
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .overlay-detail{
@@ -482,16 +482,12 @@ work
   font-size: 14px;
   opacity: 1;
 }
-/* 
-.depco .overlay{
-  background-color: #F4E4EB;
-} */
 
 .cornellsun .overlay{
   width: 95%;
 }
 .nc .overlay{
-  width: 95.1%;
+  width: 94.8%;
 }
 
 .fitm8 .overlay{
@@ -657,7 +653,6 @@ archive
 }
 
 .project .fa-github{
-  padding: 0px;
   font-size: 25px;
   color: #a8a8a8;
   -webkit-transition: all 0.3s ease-in 0s;
@@ -668,6 +663,10 @@ archive
   -moz-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
+}
+
+.gamepad .fa-github{
+  padding-left: 80%;
 }
 
 .project .fa-link{
@@ -744,15 +743,6 @@ responsive
   .welcome-area .header-text p{
     font-size: 20px !important;
   }
-  
-  .overlay{
-    width: 100% !important;
-    position: relative;
-    opacity: 1;
-    background-image: none;
-    padding: 0px !important;
-  }
-
 }
 
 @media (max-width: 600px) {
@@ -777,12 +767,22 @@ responsive
   }
 }
 
+@media (max-width: 767px){  
+  .overlay{
+    width: 100% !important;
+    position: relative;
+    opacity: 1;
+    background-image: none;
+    padding: 0px !important;
+  }
+
+}
+
 @media (max-width: 991px) {
   .welcome-area .header-text {
     top: 55% !important;
     transform: perspective(1px) translateY(-50%) !important;
   }
-
 
   #about .row{
     flex-direction: column;
@@ -831,12 +831,16 @@ responsive
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 40px;
     padding-right: 40px;
   }
   .header-area .main-nav:before {
     display: none;
+  }
+  
+  #work .overlay{
+    width: 94%;
   }
 }
